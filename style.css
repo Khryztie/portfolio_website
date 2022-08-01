@@ -18,6 +18,7 @@
     width: 100px;
     cursor: pointer;
     background-image: none;
+    margin-left: -4em;
 }
 
 .navbar{
@@ -53,13 +54,17 @@ button:hover{
 }
 
 .content button:hover{
-    color: red;
+    color: green;
 }
 
 h1{
     font-size: 80px;
     margin: 10px 0 30px;
     line-height: 80px;
+}
+
+.content h1 span{
+    color: red;
 }
 
 p{
@@ -81,7 +86,7 @@ p{
 .side-bar{
     width: 50px;
     height: 100vh;
-    background: linear-gradient(#689499, #27305c);
+    background: linear-gradient(#c9e7eb, #313753);
     position: absolute;
     right: 0;
     top: 0;
@@ -95,7 +100,7 @@ p{
 }
 
 .useful-links img{
-    width: 30px;
+    width: 20px;
     margin: 5px auto;
     text-align: center;
     cursor: pointer;
