@@ -53,8 +53,8 @@ button:hover{
     z-index: 2;
 }
 
-.content button:hover{
-    color: green;
+.content .button:hover{
+    color: red;
 }
 
 h1{
